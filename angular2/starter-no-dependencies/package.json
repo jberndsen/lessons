@@ -1,0 +1,11 @@
+{
+  "name": "Starter for Angular 2 without any dependencies",
+  "version": "1.0.0",
+  "description": "Based on John Lindquist's Egghead course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeroen Berndsen",
+  "license": "ISC"
+}
