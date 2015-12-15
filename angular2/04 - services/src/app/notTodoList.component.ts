@@ -15,7 +15,7 @@ This lesson code shows how to use:
 	template: `
 		<div>
 			<div *ngFor="#ntd of notTodoService.notTodos">
-				{{ntd}}
+				{{ntd.title}}
 			</div>
 		</div>
 	`

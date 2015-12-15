@@ -1,6 +1,6 @@
 import {Component, View} from "angular2/core";
 import {FORM_DIRECTIVES} from "angular2/common";
-import {NotTodoService} from "./notTodo.service";
+import {NotTodoService, NotTodoModel} from "./notTodo.service";
 
 /*
 This lesson code shows how to use:
@@ -22,7 +22,7 @@ This lesson code shows how to use:
 	directives: [FORM_DIRECTIVES],
 	template: `
 		<form (ngSubmit)="onSubmit()">
-			<input type="text" [(ngModel)]="notTodoModel">
+			<input type="text" [(ngModel)]="notTodoModel.title">
 		</form>
 	`
 })
@@ -35,7 +35,7 @@ export class NotTodoInput {
 	// 	this.notTodoService = notTodoService;
 	// }
 	
-	notTodoModel;
+	notTodoModel: NotTodoModel = new NotTodoModel();
 	
 	constructor(public notTodoService: NotTodoService) {
 		
@@ -43,5 +43,6 @@ export class NotTodoInput {
 	
 	onSubmit() {
 		this.notTodoService.addNotTodo(this.notTodoModel);
+		this.notTodoModel = new NotTodoModel();
 	}
 }
