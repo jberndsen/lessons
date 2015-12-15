@@ -19,6 +19,14 @@ This lesson code shows how to use:
 	`
 })
 export class NotTodoInput { 
+	// the format below can be used if not using TypeScript
+	// you also need to import 'Inject' from "angular2/core" to use the inject annotation.
+	
+	// notTodoService;
+	// constructor(@Inject(NotTodoService) notTodoService) {
+	// 	this.notTodoService = notTodoService;
+	// }
+	
 	constructor(public notTodoService: NotTodoService) {
 		
 	}
