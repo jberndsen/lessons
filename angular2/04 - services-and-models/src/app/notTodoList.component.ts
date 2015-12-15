@@ -15,7 +15,8 @@ This lesson code shows how to use:
 	template: `
 		<div>
 			<div *ngFor="#ntd of notTodoService.notTodos">
-				{{ntd.title}}
+				<span [hidden]="ntd.status == 'completed'">{{ntd.title}}</span>
+				<button (click)="ntd.toggle()">Toggle</button>
 			</div>
 		</div>
 	`

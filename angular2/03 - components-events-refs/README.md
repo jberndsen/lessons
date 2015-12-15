@@ -1,7 +1,5 @@
-Starter for Angular 2 without Gulp and TypeScript compiler
+Angular 2 lesson pack - lesson 3
 ==============================================
-
-A minimal setup for creating and running Angular 2 apps using TypeScript.
 
 ## Installation
 

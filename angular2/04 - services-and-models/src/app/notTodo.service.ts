@@ -1,7 +1,12 @@
 export class NotTodoModel {
-	status: string = "still ok";
+	status: string = "inprogress";
 	
 	constructor(public title: string = "") { }
+	
+	toggle():void {
+		if (this.status == "inprogress") this.status = "completed";
+		else this.status = "inprogress";
+	}
 }
 
 export class NotTodoService {

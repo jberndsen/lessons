@@ -1,4 +1,4 @@
-Starter for Angular 2 without Gulp and TypeScript compiler
+Starter for Angular 2 with Gulp and TypeScript compiler
 ==============================================
 
 A minimal setup for creating and running Angular 2 apps using TypeScript.
