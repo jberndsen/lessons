@@ -1,7 +1,5 @@
-Starter for Angular 2 without Gulp and TypeScript compiler
+Angular 2 lesson pack - lesson 4
 ==============================================
-
-A minimal setup for creating and running Angular 2 apps using TypeScript.
 
 ## Installation
 
@@ -14,4 +12,6 @@ A minimal setup for creating and running Angular 2 apps using TypeScript.
 
 ## Lesson content
 
-This lesson code shows how to create services and inject them using constructor injection, see the notTodoInput component and notTodo-service in the `src/app` folder.
+This lesson code shows how to create services and inject them using constructor injection.
+We use ngModel and ngSubmit for data-binding and adding them to our newly created service.
+Finally, the entered data is shown using ngFor to repeat elements, see the `notTodoList` component.
