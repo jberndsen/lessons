@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.config({defaultJSExtensions: true});
+    </script>
+    <script src="../node_modules/angular2/bundles/angular2.min.js"></script>
+    <script>
+        System.import('./app/bootstrap').catch(console.log.bind(console));
+    </script>
+</head>
+
+<body>
+    <app></app>
+</body>
+
+</html>
