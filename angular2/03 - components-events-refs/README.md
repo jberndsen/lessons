@@ -14,4 +14,14 @@ A minimal setup for creating and running Angular 2 apps using TypeScript.
 
 ## Lesson content
 
-This lesson code shows how to bootstrap your application and create your first compoent, see bootstrap.ts and app.component.ts in the `src/app` folder.
+This lesson code shows how to use events and refs, see the notTodoInput component in the `src/app` folder.
+
+ - events
+    - put between parentheses, e.g. (click)= on a component
+ 	- works for both native and custom events
+	- no more directives per event required (ng-click, and so on)
+	- you can pass $event to get the event itself 
+ 
+ - refs:
+    - used to make components referencable
+    - declare with a '#'-sign, see #log-me
