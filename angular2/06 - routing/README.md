@@ -1,4 +1,4 @@
-Angular 2 lesson pack - lesson 5
+Angular 2 lesson pack - lesson 6
 ==============================================
 
 ## Installation
@@ -12,4 +12,4 @@ Angular 2 lesson pack - lesson 5
 
 ## Lesson content
 
-This lesson code shows how to do one-way data binding, component life-cycle hooks and using ngClass, see `notTodoInput.component.ts`,  `notTodoItemRenderer.ts` and `notTodoList.component.ts`.
+This lesson code shows how to do routing. See `bootstrap.ts` and `app.component.ts`.

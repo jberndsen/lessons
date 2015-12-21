@@ -1,0 +1,26 @@
+{
+  "name": "angular2-starter-with-gulp",
+  "version": "1.0.0",
+  "description": "Starter for Angular 2 with gulp, based on Powel's work.",
+  "author": "Jeroen Berndsen",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.4.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-typescript": "^2.8.0",
+    "open": "0.0.5",
+    "run-sequence": "^1.1.5",
+    "serve-static": "^1.10.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.53",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-alpha.14",
+    "zone.js": "0.5.8",
+    "systemjs": "0.19.6"
+  }
+}
